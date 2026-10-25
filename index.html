@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лазертаг</title>
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0e17'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%2300e5ff' stroke-width='3'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23ff2d75'/%3E%3Cpath d='M32 6v12M32 46v12M6 32h12M46 32h12' stroke='%2300e5ff' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="apple-touch-icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0e17'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%2300e5ff' stroke-width='3'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23ff2d75'/%3E%3Cpath d='M32 6v12M32 46v12M6 32h12M46 32h12' stroke='%2300e5ff' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header id="header">
+    <div class="container nav">
+      <div class="logo">ЛАЗЕР<span>ТАГ</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">О хобби</a></li>
+        <li><a href="#what">Что это</a></li>
+        <li><a href="#gear">Снаряжение</a></li>
+        <li><a href="#sport">Спорт</a></li>
+        <li><a href="#status">Статус</a></li>
+        <li><a href="#rules">Правила</a></li>
+        <li><a href="#awards">Награды</a></li>
+        <li><a href="#events">Турниры</a></li>
+        <li><a href="#gallery">Галерея</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-badge">Моё хобби · Моё увлечение</div>
+      <h1>Лазертаг — это <span>больше, чем игра</span></h1>
+      <p>Адреналин, тактика и командный дух. Место, где я чувствую себя собой.</p>
+      <a href="#gallery" class="btn">Смотреть галерею</a>
+    </div>
+    <a href="#about" class="scroll-down">▼</a>
+  </section>
+
+  
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">О <span>хобби</span></h2>
+      <p class="section-sub">Коротко о том, почему лазертаг стал частью моей жизни.</p>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Я впервые взяла в руки тагер <strong>2 года назад</strong> — и с тех пор лазертаг стал для меня не просто игрой, а настоящей страстью.</p>
+          <p>Каждая игра — это <strong>тактика, командная работа и выброс адреналина</strong>. Здесь нельзя выиграть в одиночку: победа рождается из слаженности.</p>
+          <p>Сейчас я играю в составе команды и участвую в городских, региональных и всероссийских турнирах.</p>
+        </div>
+        <div class="facts">
+          <div class="fact">
+            <div class="num" data-target="2">0</div>
+            <div class="lbl">года в игре</div>
+          </div>
+          <div class="fact">
+            <div class="num" data-target="500" data-suffix="+">0</div>
+            <div class="lbl">сыгранных игр</div>
+          </div>
+          <div class="fact">
+            <div class="num" data-target="30">0</div>
+            <div class="lbl">турниров</div>
+          </div>
+          <div class="fact">
+            <div class="num" data-target="27">0</div>
+            <div class="lbl">наград</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="what">
+    <div class="container">
+      <h2 class="section-title">Что такое <span>лазертаг</span></h2>
+      <p class="section-sub">Командная военно-тактическая игра с безопасным лазерным оружием.</p>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Лазерный бой — это <strong>командная военно-тактическая игра</strong> с использованием безопасного лазерного оружия (тагеров) и сенсоров, которые фиксируют попадания. Сенсоры размещаются на жилетах, касках или повязках игроков.</p>
+          <p>В отличие от пейнтбола или страйкбола, здесь <strong>не используются пули или краска</strong> — только инфракрасный луч, аналогичный сигналу пульта телевизора.</p>
+          <p>При попадании электроника автоматически фиксирует это, начисляет очки, отключает оружие при «смерти» игрока и ведёт статистику.</p>
+        </div>
+        <div class="cards cards-vertical">
+          <div class="card">
+            <div class="icon">🛡️</div>
+            <h3>Безопасность</h3>
+            <p>Лазерный луч вместо шарика с краской — никакой боли и синяков, игра для всех.</p>
+          </div>
+          <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Активность</h3>
+            <p>Нужно двигаться, укрываться и действовать — за игру сгорает масса энергии.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🧠</div>
+            <h3>Стратегия</h3>
+            <p>Побеждает не самый быстрый, а самый думающий — планирование решает всё.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="gear">
+    <div class="container">
+      <h2 class="section-title">Снаряжение <span>игрока</span></h2>
+      <p class="section-sub">Что входит в стандартный комплект.</p>
+      <div class="cards">
+        <div class="card">
+          <div class="icon"></div>
+          <h3>Электронный бластер (тагер)</h3>
+          <p>Основное оружие игрока. Стреляет безопасным инфракрасным лучом, ведёт подсчёт попаданий и передаёт данные в систему.</p>
+        </div>
+        <div class="card">
+          <div class="icon"></div>
+          <h3>Датчики поражения</h3>
+          <p>Набор сенсоров, которые фиксируют попадания. Размещаются на жилете, каске или повязке.</p>
+        </div>
+        <div class="card">
+          <div class="icon"></div>
+          <h3>Жилет или повязка</h3>
+          <p>В аренном лазертаге датчики обычно расположены на жилете, в outdoor-играх чаще используются повязки на голову.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="sport">
+    <div class="container">
+      <h2 class="section-title">Спортивный <span>лазертаг</span></h2>
+      <p class="section-sub">Строгий свод правил и равные условия для всех участников.</p>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Спортивный лазертаг отличается <strong>строгим сводом правил</strong> и равными условиями для всех участников. Игры проходят на симметричных площадках с равномерно расставленными укрытиями.</p>
+          <p>Состав команд фиксированный, а оборудование — стандартное. Федерация лазертага России утвердила несколько дисциплин.</p>
+        </div>
+        <div class="cards cards-vertical">
+          <div class="card">
+            <div class="icon"></div>
+            <h3>Игра 3×3</h3>
+            <p>Формат для новичков и небольших команд.</p>
+          </div>
+          <div class="card">
+            <div class="icon"></div>
+            <h3>Игра 5×5</h3>
+            <p>Основной турнирный формат, используемый на чемпионатах.</p>
+          </div>
+          <div class="card">
+            <div class="icon"></div>
+            <h3>Захват контрольной точки (КТ)</h3>
+            <p>Цель — захватить и удерживать точку в течение заданного времени.</p>
+          </div>
+          <div class="card">
+            <div class="icon"></div>
+            <h3>Команда на команду (встречный бой)</h3>
+            <p>За определённое время нужно поразить максимальное количество игроков противника.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="status">
+    <div class="container">
+      <h2 class="section-title">Официальный <span>статус</span></h2>
+      <p class="section-sub">Лазерный бой (лазертаг) получил официальный статус вида спорта в России.</p>
+
+      <div class="status-box">
+        <div class="status-date">
+          <span class="big-date">21 октября 2026</span>
+          <span class="date-note">Минспорт РФ присвоил лазерному бою официальный статус вида спорта</span>
+        </div>
+        <div class="status-list">
+          <p>Федерация лазерного боя России успешно прошла государственную аккредитацию. После этого события:</p>
+          <ul>
+            <li>Турниры стали проводиться по регламентированным правилам;</li>
+            <li>Судьи обязаны проходить обязательную аккредитацию;</li>
+            <li>Нормативы по лазертагу включили в Единую всероссийскую спортивную классификацию;</li>
+            <li>Спортсмены получили возможность системно подтверждать своё мастерство и получать официальные спортивные разряды.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="status-future">
+        <div class="card">
+          <div class="icon">🌍</div>
+          <h3>Планы на 2027 год</h3>
+          <p>Федерация лазертага России планирует провести в стране международные соревнования с участием <strong>15 стран</strong> и сформировать международную федерацию этого вида спорта.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="rules">
+    <div class="container">
+      <h2 class="section-title">Правила <span>игры</span></h2>
+      <p class="section-sub">Кратко — чтобы понять суть.</p>
+      <ul class="rules">
+        <li><strong>Цель:</strong> поразить всех игроков команды противника или выполнить задачу сценария.</li>
+        <li><strong>Поражение:</strong> попадание в сенсор на жилете или повязке засчитывается как выбывание.</li>
+        <li><strong>Возрождение:</strong> возврат в игру через базу команды или после сигнала.</li>
+        <li><strong>Честность:</strong> главное правило — если тебя задели, признай это. Здесь побеждают честно.</li>
+      </ul>
+    </div>
+  </section>
+
+  
+  <section id="awards">
+    <div class="container">
+      <h2 class="section-title">Мои <span>награды</span></h2>
+      <p class="section-sub">Достижения, которыми я горжусь.</p>
+      <div class="awards-timeline">
+        <div class="award">
+          <span class="year">2026</span>
+          <h4>"Кубок Сибири" по лазерному бою, г. Белово</h4>
+          <span class="place">🥉 3 место - встречный бой, 🥉 3 место - захват КТ </span>
+        </div>
+        <div class="award">
+          <span class="year">2025</span>
+          <h4>III-ий Ежегодный турнир по лазерному бою, посвященный трехлетия Центра ВОИН</h4>
+          <span class="place">🥈 2 место - встречный бой</span>
+        </div>
+        <div class="award">
+          <span class="year">2025</span>
+          <h4>Турнир по лазерному бою "Кубок центра ВОИН" к 80-летию Победы в ВОВ</h4>
+          <span class="place">🥉 3 место - захват КТ</span>
+        </div>
+        <div class="award">
+          <span class="year">2025</span>
+          <h4>Соревнования по лазертагу среди курсантов обучающихся по доп.программе "Военно-спортивная подготовка и патриотическое воспитание. Первый уровень"</h4>
+          <span class="place">🥉 3 место - захват КТ</span>
+        </div>
+        <div class="award">
+          <span class="year">2026</span>
+          <h4>Турнир по лазерному бою среди курсантов филиала Центра ВОИН Республики Бурятия</h4>
+          <span class="place">🥉 3 место - захват КТ</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- ЗАПЛАНИРОВАННЫЕ ТУРНИРЫ -->
+  <section id="events">
+    <div class="container">
+      <h2 class="section-title">Запланированные <span>турниры</span></h2>
+      <p class="section-sub">Ближайшие соревнования и обратный отсчёт до старта.</p>
+
+      <div class="events-timeline">
+
+        <div class="event">
+          <span class="year">2027</span>
+          <h4>«Кубок Сибири» по лазерному бою, г. Белово</h4>
+          <div class="countdown" data-date="2027-04-12T10:00:00">
+            <div class="cd-item"><span class="cd-num" data-unit="days">00</span><span class="cd-lbl">дней</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="hours">00</span><span class="cd-lbl">часов</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="minutes">00</span><span class="cd-lbl">минут</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="seconds">00</span><span class="cd-lbl">секунд</span></div>
+          </div>
+        </div>
+
+        <div class="event">
+          <span class="year">2026</span>
+          <h4>IV-ый Ежегодный турнир по лазерному бою ДФО</h4>
+          <div class="countdown" data-date="2026-12-12T10:00:00">
+            <div class="cd-item"><span class="cd-num" data-unit="days">00</span><span class="cd-lbl">дней</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="hours">00</span><span class="cd-lbl">часов</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="minutes">00</span><span class="cd-lbl">минут</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="seconds">00</span><span class="cd-lbl">секунд</span></div>
+          </div>
+        </div>
+
+        <div class="event">
+          <span class="year">2027</span>
+          <h4>«Кубок Севера» по лазерному бою, СПб</h4>
+          <div class="countdown" data-date="2027-01-08T10:00:00">
+            <div class="cd-item"><span class="cd-num" data-unit="days">00</span><span class="cd-lbl">дней</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="hours">00</span><span class="cd-lbl">часов</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="minutes">00</span><span class="cd-lbl">минут</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="seconds">00</span><span class="cd-lbl">секунд</span></div>
+          </div>
+        </div>
+
+        <div class="event">
+          <span class="year">2027</span>
+          <h4>Всероссийские студенческие игры по лазерному бою, г. Москва</h4>
+          <div class="countdown" data-date="2027-02-20T10:00:00">
+            <div class="cd-item"><span class="cd-num" data-unit="days">00</span><span class="cd-lbl">дней</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="hours">00</span><span class="cd-lbl">часов</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="minutes">00</span><span class="cd-lbl">минут</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="seconds">00</span><span class="cd-lbl">секунд</span></div>
+          </div>
+        </div>
+
+        <div class="event">
+          <span class="year">2027</span>
+          <h4>Чемпионат России по лазерному бою, г. Москва</h4>
+          <div class="countdown" data-date="2027-05-15T10:00:00">
+            <div class="cd-item"><span class="cd-num" data-unit="days">00</span><span class="cd-lbl">дней</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="hours">00</span><span class="cd-lbl">часов</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="minutes">00</span><span class="cd-lbl">минут</span></div>
+            <div class="cd-item"><span class="cd-num" data-unit="seconds">00</span><span class="cd-lbl">секунд</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="gallery">
+    <div class="container">
+      <h2 class="section-title">Моменты с <span>поля боя</span></h2>
+      <div class="gallery">
+        <figure><img src="/images/image-1.jfif" alt="Игра 1"></figure>
+        <figure><img src="/images/image-2.jfif" alt="Игра 2"></figure>
+        <figure><img src="/images/image-3.jfif" alt="Игра 3"></figure>
+        <figure><img src="/images/image-4.jfif" alt="Игра 4"></figure>
+        <figure><img src="/images/image-5.jfif" alt="Игра 5"></figure>
+        <figure><img src="/images/image-6.jfif" alt="Игра 6"></figure>
+      </div>
+    </div>
+  </section>
+  <footer id="contacts">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Колонка 1: О сайте -->
+        <div class="footer-col">
+          <div class="logo">ЛАЗЕР<span>ТАГ</span></div>
+          <p class="footer-note">Моё хобби и увлечение. Адреналин, тактика и командный дух.</p>
+        </div>
+
+        <!-- Колонка 2: Навигация -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Навигация</h4>
+          <ul class="footer-nav">
+            <li><a href="#about">О хобби</a></li>
+            <li><a href="#what">Что это</a></li>
+            <li><a href="#gear">Снаряжение</a></li>
+            <li><a href="#sport">Спорт</a></li>
+            <li><a href="#status">Статус</a></li>
+            <li><a href="#rules">Правила</a></li>
+            <li><a href="#events">Турниры</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+          </ul>
+        </div>
+
+        <!-- Колонка 3: Контакты -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Контакты</h4>
+          <ul class="footer-contacts">
+            <li>📞 <a href="tel:+79085966754">+7 (908) 596-67-54</a></li>
+            <li>✉️ <a href="mailto:margaritarazuvaeva454@gmail.com">margaritarazuvaeva454@gmail.com</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <p class="copyright">© 2026 Лазертаг. Сделано с любовью к игре.</p>
+    </div>
+  </footer>
+
+  
+  <div class="lightbox" id="lightbox">
+    <span class="close" id="lightboxClose">&times;</span>
+    <img src="" alt="Просмотр" id="lightboxImg">
+  </div>
+
+  
+  <button id="toTop" class="to-top" aria-label="Наверх">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
